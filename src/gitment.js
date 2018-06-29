@@ -2,7 +2,7 @@ import { autorun, observable } from 'mobx'
 
 import { LS_ACCESS_TOKEN_KEY, LS_USER_KEY, NOT_INITIALIZED_ERROR } from './constants'
 import { getTargetContainer, http, Query } from './utils'
-import defaultTheme from './theme/default'
+import defaultTheme from './theme/myTheme'
 
 const scope = 'public_repo'
 
